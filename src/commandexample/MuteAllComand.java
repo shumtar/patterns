@@ -12,6 +12,7 @@ public class MuteAllComand implements Command {
 		this.cunsumerElectronics = cunsumerElectronics;
 	}
 
+	
 	@Override
 	public void execute() {
 		for (Iterator iterator = cunsumerElectronics.iterator(); iterator.hasNext();) {

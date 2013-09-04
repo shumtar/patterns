@@ -9,5 +9,4 @@ public class Main {
 		Button b = new Button(c);
 		b.push();
 	}
-
 }
